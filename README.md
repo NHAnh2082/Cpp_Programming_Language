@@ -2645,7 +2645,7 @@ int main()
 </p>
 </details>
 
-<details><summary><b>12.3 Examples </b></summary>
+<details><summary><b>3. Examples </b></summary>
 <p>
 
 💻 **Ví dụ 1: Cấp phát động một biến đơn**
@@ -2822,11 +2822,15 @@ int main(int argc, char const *argv[])
 <details><summary><b>📚 Single Linked List </b></summary>
 <p>
 
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Linked_List/Single_Linked_List.hpp
+
 </p>
 </details>
 
 <details><summary><b>📚 Doubly Linked List</b></summary>
 <p>
+
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Linked_List/Doubly_Linked_List.hpp
 
 </p>
 </details>
@@ -2837,6 +2841,8 @@ int main(int argc, char const *argv[])
 <details><summary><b>2. Stack</b></summary>
 <p>
 
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Stack/stack.hpp
+
 </p>
 </details>
 
@@ -2846,11 +2852,15 @@ int main(int argc, char const *argv[])
 <details><summary><b>📚 Linear Queue</b></summary>
 <p>
 
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Queue/queue_linear.hpp
+
 </p>
 </details>
 
 <details><summary><b>📚 Circular Queue</b></summary>
 <p>
+
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Queue/queue_circular.hpp
 
 </p>
 </details>
@@ -2858,47 +2868,7 @@ int main(int argc, char const *argv[])
 <details><summary><b>📚 Priority Queue</b></summary>
 <p>
 
-</p>
-</details>
-
-</p>
-</details>
-
-<details><summary><b>4. JSON </b></summary>
-<p>
-
-<details><summary><b>📚 Giới thiệu về JSON</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 JSON structure</b></summary>
-<p>
-
-</p>
-</details>
-
-</p>
-</details>
-
-<details><summary><b>5. Tree</b></summary>
-<p>
-
-<details><summary><b>📚 Binary Tree</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 Binary Search Tree (BST)</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 Heap Tree</b></summary>
-<p>
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Data_Structure/Queue/queue_priority.hpp
 
 </p>
 </details>
@@ -2910,64 +2880,6 @@ int main(int argc, char const *argv[])
 </details>
 
 <br>
-
-<details><summary><b>Algorithm</b></summary>
-<p>
-
-<details><summary><b>1. Sort Algorith </b></summary>
-<p>
-
-<details><summary><b>📚 Bubble Sort</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 Quick Sort</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 Selection Sort</b></summary>
-<p>
-
-</p>
-</details>
-
-</p>
-</details>
-
-<details><summary><b>2. Search Algorithm </b></summary>
-<p>
-
-<details><summary><b>📚 Linear Search</b></summary>
-<p>
-
-</p>
-</details>
-
-<details><summary><b>📚 Binary Search</b></summary>
-<p>
-
-</p>
-</details>
-
-</p>
-</details>
-
-<details><summary><b>3. Shortest Path Algorithm - Dijkstra </b></summary>
-<p>
-
-</p>
-</details>
-
-</p>
-</details>
-
-<br>
-
-
 
 <details><summary><b>auto & decltype keywords</b></summary>
 <p>
@@ -5437,17 +5349,23 @@ check: 1
 <details><summary><b>📚 Unique Pointer</b></summary>
 <p>
 
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Smart_%20Pointer/Lib/Unique_Pointer.hpp
+
 </p>
 </details>
 
 <details><summary><b>📚 Shared Pointer</b></summary>
 <p>
 
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Smart_%20Pointer/Lib/Shared_Pointer.hpp
+
 </p>
 </details>
 
 <details><summary><b>📚 Weak Pointer</b></summary>
 <p>
+
+https://github.com/NHAnh2082/Cpp_Programming_Language/blob/3b23d1737f9b6e5db35057cdb03ac59fcceff890/Smart_%20Pointer/Lib/Weak_Pointer.hpp
 
 </p>
 </details>
@@ -7483,7 +7401,7 @@ task 2, i = 3
 <details><summary><b>📚 Atomic Operator</b></summary>
 <p>
 
-- std::atomic là một struct template trong C++ được thiết kế để thực hiện các thao tác trên các biến toàn cục mà các thao tác này không thể bị gián đoạn bởi các luồng khác. Điều này giúp đảm bảo tính nhất quán của dữ liệu và tránh tình trạng **data race** khi nhiều luồng cùng truy cập và thay đổi dữ liệu chia sẻ.
+- ``` std::atomic ``` là một **struct template** trong C++ được thiết kế để thực hiện các thao tác trên các biến toàn cục mà các thao tác này không thể bị gián đoạn bởi các luồng khác. Điều này giúp đảm bảo tính nhất quán của dữ liệu và tránh tình trạng **data race** khi nhiều luồng cùng truy cập và thay đổi dữ liệu chia sẻ.
 - Các thao tác atomic:
 
 	+ Gán và đọc giá trị (store và load): Ghi và đọc giá trị của biến atomic.
@@ -7639,17 +7557,17 @@ value_int.compare_exchange_weak(expected, 200);
 <details><summary><b>📚 Mutex</b></summary>
 <p>
 
-- Mutex (Mutual Exclusion): Là một đối tượng đồng bộ hóa cung cấp cơ chế để giới hạn truy cập tài nguyên (ngoại vi: bàn phím, màn hình, camera, ...) chỉ cho một luồng tại một thời điểm. Khi một luồng khóa (lock) mutex, các luồng khác phải chờ cho đến khi mutex được mở khóa (unlock) mới có thể tiếp tục truy cập tài nguyên.
+- **Mutex (Mutual Exclusion)**: Là một đối tượng đồng bộ hóa cung cấp cơ chế để giới hạn truy cập tài nguyên (ngoại vi: bàn phím, màn hình, camera, ...) chỉ cho một luồng tại một thời điểm. Khi một luồng khóa (lock) mutex, các luồng khác phải chờ cho đến khi mutex được mở khóa (unlock) mới có thể tiếp tục truy cập tài nguyên.
 - Trạng thái của mutex: có hai trạng thái chính:
 
-	+ Khóa (locked): Khi một luồng giữ (lock) mutex, trạng thái của mutex là locked. Điều này nghĩa là mutex hiện đang được "sở hữu" bởi một luồng và không luồng nào khác có thể truy cập tài nguyên được bảo vệ bởi mutex cho đến khi luồng giữ mutex mở khóa (unlock). Nếu một luồng khác cố gắng lock mutex khi nó đang ở trạng thái locked, luồng đó sẽ bị block (chờ đợi) cho đến khi mutex được unlock.
-	+ Mở khóa (unlocked): Khi mutex không bị bất kỳ luồng nào giữ (lock), trạng thái của mutex là unlocked. Trong trạng thái này, bất kỳ luồng nào cũng có thể lock mutex và trở thành luồng sở hữu nó. Sau khi một luồng sở hữu mutex, trạng thái chuyển thành locked, và các luồng khác phải chờ.
+	+ **Khóa (locked)**: Khi một luồng giữ (lock) mutex, trạng thái của mutex là locked. Điều này nghĩa là mutex hiện đang được "sở hữu" bởi một luồng và không luồng nào khác có thể truy cập tài nguyên được bảo vệ bởi mutex cho đến khi luồng giữ mutex mở khóa (unlock). Nếu một luồng khác cố gắng lock mutex khi nó đang ở trạng thái locked, luồng đó sẽ bị block (chờ đợi) cho đến khi mutex được unlock.
+	+ **Mở khóa (unlocked)**: Khi mutex không bị bất kỳ luồng nào giữ (lock), trạng thái của mutex là unlocked. Trong trạng thái này, bất kỳ luồng nào cũng có thể lock mutex và trở thành luồng sở hữu nó. Sau khi một luồng sở hữu mutex, trạng thái chuyển thành locked, và các luồng khác phải chờ.
 
-- std::mutex được định nghĩa trong thư viện <mutex>. Các phương thức cơ bản bao gồm:
+- ``` std::mutex ``` được định nghĩa trong thư viện <mutex>. Các phương thức cơ bản bao gồm:
 
-	+ lock(): Khóa mutex.
-	+ unlock(): Mở khóa mutex.
-	+ try_lock(): Thử khóa mutex. Nếu mutex chưa bị khóa, nó sẽ khóa mutex và trả về true. Nếu đã bị khóa bởi một luồng khác, nó sẽ không chặn luồng hiện tại mà trả về false.
+	+ **lock()**: Khóa mutex.
+	+ **unlock()**: Mở khóa mutex.
+	+ **try_lock()**: Thử khóa mutex. Nếu mutex chưa bị khóa, nó sẽ khóa mutex và trả về true. Nếu đã bị khóa bởi một luồng khác, nó sẽ không chặn luồng hiện tại mà trả về false.
 
 <br>
 
@@ -7659,7 +7577,6 @@ value_int.compare_exchange_weak(expected, 200);
 #include <thread>
 #include <atomic>
 #include <mutex>
-
 using namespace std;
 
 atomic<int> sharedCounter(0); // biến chia sẻ giữa các luồng
@@ -7685,7 +7602,6 @@ int main(int argc, char const *argv[])
     t2.join();
 
     cout << "Final result: " << sharedCounter << endl;
-
     return 0;
 }
 ```
@@ -7732,7 +7648,6 @@ class lock_guard
 #include <chrono>
 #include <atomic>
 #include <mutex>
-
 using namespace std;
 
 atomic<double> counter(0);
@@ -7765,7 +7680,6 @@ int main(int argc, char const *argv[])
     t1.join();
     t2.join();
     t3.join();
-
     return 0;
 }
 ```
@@ -7841,12 +7755,12 @@ mutex mtx;
 
 bool lock_test = false;
 
-void delay(uint32_t time){
-    this_thread::sleep_for(chrono::seconds(time));
-}
+void delay(uint32_t time){ this_thread::sleep_for(chrono::seconds(time)); }
 
-void display(int id){
-    while (1){
+void display(int id)
+{
+    while (1)
+    {
         unique_lock<mutex> lock(mtx);   
         cout << "This is task display: " << id << endl;
         delay(1);
@@ -7875,15 +7789,11 @@ int main(int argc, char const *argv[])
 #include <thread>
 #include <chrono>
 #include <mutex>
-
 using namespace std;
 
 mutex mtx;
 
-void delay(uint32_t time)
-{
-    this_thread::sleep_for(chrono::seconds(time));
-}
+void delay(uint32_t time){ this_thread::sleep_for(chrono::seconds(time)); }
 
 void task(int id)
 {
@@ -7915,7 +7825,6 @@ int main(int argc, char const *argv[])
     t1.join();
     t2.join();
     t3.join();
-
     return 0;
 }
 ```
@@ -7965,128 +7874,78 @@ b) Một luồng khác thông báo (notify_one() hoặc notify_all()) rằng đi
 💻 **Ví dụ 1:**
 ```cpp
 #include <iostream>
-#include <thread>               // tạo ra các luồng
-#include <mutex>                // khóa dữ liệu khi có nhiều luồng cùng truy cập
-#include <condition_variable>   // sử dụng biến điều kiện giúp đồng bộ hóa giữa các luồng
-#include <chrono>               // quản lý thời gian
+#include <thread>               // Tạo luồng
+#include <mutex>                // Khóa dữ liệu khi có nhiều luồng truy cập
+#include <condition_variable>   // Biến điều kiện giúp đồng bộ hóa giữa các luồng
+#include <chrono>               // Quản lý thời gian
+#include <atomic>               // Biến nguyên tử để tránh xung đột dữ liệu
 
 using namespace std;
 
-void delay(uint32_t time)
-{
-    this_thread::sleep_for(chrono::seconds(time));
+/********************************************************
+ * @brief Hàm tạo độ trễ cho luồng
+ * @param time Thời gian trễ (đơn vị: giây)
+ ********************************************************/
+void delay(uint32_t time) { 
+    this_thread::sleep_for(chrono::seconds(time)); 
 }
 
-/**
- * biến toàn cục lưu trữ dữ liệu được đọc từ cảm biến, khởi tạo bằng 0
- */
-int sensor_data = 0;
+// Biến toàn cục dùng để lưu dữ liệu cảm biến
+atomic<int> sensor_data(0);
 
-
-/**
- * biến dùng để kiểm tra xem dữ liệu đã được đọc hay chưa
- */
+// Cờ kiểm tra xem dữ liệu đã sẵn sàng hay chưa
 bool check_data = false;
 
-
-/**
- * mtx: 1 đối tượng khóa (mutex) dùng để bảo vệ tài nguyên chia sẻ (sensor_data và check_data) 
- * giữa các luồng, đảm bảo rằng không có hai luồng nào cùng lúc truy cập vào các tài nguyên này
- */
+// Đối tượng mutex dùng để đồng bộ dữ liệu giữa các luồng
 mutex mtx;
 
-
-/**
- * cv: object điều kiện (condition variable) giúp đồng bộ hóa giữa các luồng. Nó được sử dụng để 
- * thông báo cho các luồng khác biết khi nào có sự thay đổi về dữ liệu.
- */
+// Biến điều kiện để báo hiệu khi có dữ liệu mới
 condition_variable cv;
 
-
-/************************************************************************************************
- * sensor_read: hàm thực thi trong 1 luồng riêng để mô phỏng quá trình đọc dữ liệu từ cảm biến
- * 
- * unique_lock<mutex> lock(mtx): 
- *      + khóa đối tượng mtx để bảo vệ tài nguyên chia sẻ
- *      + unique_lock giúp tự động giải phóng khóa khi ra khỏi phạm vi
- * 
- * sensor_data = rand() % 100: 
- *      + cập nhật giá trị của sensor_data với một số ngẫu nhiên từ 0 đến 99
- * 
- * check_data = true:
- *      + đánh dấu rằng dữ liệu đã được cập nhật và in ra màn hình 1 thông báo
- * 
- * lock.unlock(): 
- *      + Lệnh lock.unlock() được thực hiện trước khi gọi cv.notify_one() để  đảm bảo rằng mutex 
- *        sẽ được mở khóa trước khi cv.notify_one() được gọi
- *      + Giảm độ nghẽn: Bằng cách mở khóa mutex trước khi thông báo, sensor_read đảm bảo rằng 
- *        ngay sau khi gọi cv.notify_all(), các luồng khác có thể tiếp tục xử lý ngay lập tức
- * 
- * cv.notify_one(): 
- *      + thông báo cho một luồng khác đang chờ đợi rằng dữ liệu mới đã sẵn sàng để xử lý
- ***********************************************************************************************/
+/********************************************************
+ * @brief Hàm mô phỏng quá trình đọc dữ liệu từ cảm biến
+ * @details Cứ mỗi 2 giây, hàm này sẽ cập nhật dữ liệu cảm biến
+ *          và gửi tín hiệu cho luồng xử lý dữ liệu.
+ * @return void
+ ********************************************************/
 void sensor_read()
 {
     while (1)
     {
-        delay(2);
+        delay(2);  // Tạo độ trễ 2 giây
         unique_lock<mutex> lock(mtx);
-        sensor_data = rand() % 100;
-        check_data = true;
+        sensor_data = rand() % 100; // Giả lập giá trị cảm biến ngẫu nhiên
+        check_data = true;          // Đánh dấu dữ liệu đã sẵn sàng
         cout << "Read data done!\n";
         lock.unlock();
-        cv.notify_one();
+        cv.notify_one(); // Báo hiệu cho luồng xử lý dữ liệu
     }
 }
 
-
-/************************************************************************************************
- * process_data: hàm thực thi trong 1 luồng riêng để xử lý dữ liệu từ cảm biến
- * 
- * unique_lock<mutex> lock(mtx): 
- *      + khóa đối tượng mtx để truy cập vào tài nguyên chia sẻ
- *      + unique_lock giúp tự động giải phóng khóa khi ra khỏi phạm vi
- * 
- * cv.wait(lock, []{return check_data;}): 
- *      + []{return check_data;}: con trỏ hàm, trả về kiểu boolean
- *      + chờ cho đến khi check_data là true để đảm bảo rằng luồng này sẽ không tiếp tục cho đến 
- *        khi có dữ liệu mới và in ra màn hình dữ liệu cảm biến
- * 
- * check_data = false:
- *      + đặt lại biến check_data để chuẩn bị cho lần đọc dữ liệu tiếp theo
- * 
- * lock.unlock(): 
- *      + ngay sau khi truy cập vào màn hình console để in dữ liệu thì mở khóa ngay để tiếp tục 
- *        đọc dữ liệu cho lần tiếp theo, giúp giảm độ nghẽn trong quá trình xử lý dữ liệu
- ***********************************************************************************************/
+/********************************************************
+ * @brief Hàm xử lý dữ liệu từ cảm biến
+ * @details Chờ dữ liệu cảm biến sẵn sàng, sau đó in ra màn hình
+ * @return void
+ ********************************************************/
 void process_data()
 {
     while (1)
     {
         unique_lock<mutex> lock(mtx);
-        cv.wait(lock, []{return check_data;});
-        cout << "Data: " << sensor_data << endl;
+        cv.wait(lock, []{return check_data;});  // Chờ đến khi dữ liệu sẵn sàng
+        cout << "Data: " << sensor_data << endl; // Hiển thị dữ liệu
         lock.unlock();
-        check_data = false; 
+        check_data = false; // Reset cờ dữ liệu
     }
 }
 
-
 int main(int argc, char const *argv[])
 {
-    thread task1(sensor_read);
-    thread task2(process_data);
+    thread task1(sensor_read);  // Tạo luồng đọc dữ liệu cảm biến
+    thread task2(process_data); // Tạo luồng xử lý dữ liệu
 
-    task1.join();
-    task2.join();
-
-    /************************************************************************************************
-     * Luồng task1 (sensor_read) mô phỏng việc đọc dữ liệu từ cảm biến mỗi 2 giây, sau đó cập nhật 
-     * biến sensor_data và thông báo rằng dữ liệu đã sẵn sàng.
-     * 
-     * Luồng task2 (process_data) chờ dữ liệu từ task1. Khi sensor_read thông báo, process_data sẽ 
-     * lấy giá trị sensor_data, hiển thị ra màn hình, và đánh dấu rằng dữ liệu đã được xử lý.
-     ***********************************************************************************************/
+    task1.join(); // Chờ luồng 1 kết thúc
+    task2.join(); // Chờ luồng 2 kết thúc
     return 0;
 }
 ```
@@ -8096,72 +7955,97 @@ int main(int argc, char const *argv[])
 💻 **Ví dụ 2:**
 ```cpp
 #include <iostream>
-#include <thread>               // tạo ra các luồng
-#include <mutex>                // khóa dữ liệu khi có nhiều luồng cùng truy cập
-#include <condition_variable>   // sử dụng biến điều kiện giúp đồng bộ hóa giữa các luồng
-#include <chrono>               // quản lý thời gian
+#include <thread>               // Tạo luồng
+#include <mutex>                // Khóa dữ liệu khi có nhiều luồng truy cập
+#include <condition_variable>   // Biến điều kiện giúp đồng bộ hóa giữa các luồng
+#include <chrono>               // Quản lý thời gian
+#include <atomic>               // Biến nguyên tử để tránh xung đột dữ liệu
 
 using namespace std;
 
-void delay(uint32_t time){
-    this_thread::sleep_for(chrono::seconds(time));
-}
+/********************************************************
+ * @brief Hàm tạo độ trễ cho luồng
+ * @param time Thời gian trễ (đơn vị: giây)
+ ********************************************************/
+void delay(uint32_t time){ this_thread::sleep_for(chrono::seconds(time)); }
 
-int sensor_data = 0;
+// Biến toàn cục dùng để lưu dữ liệu cảm biến
+atomic<int> sensor_data(0);
 
+// Cờ kiểm tra xem dữ liệu đã sẵn sàng hay chưa
 bool check_data = false;
 
+// Đối tượng mutex dùng để đồng bộ dữ liệu giữa các luồng
 mutex mtx;
 
+// Biến điều kiện để báo hiệu khi có dữ liệu mới
 condition_variable cv;
 
+/********************************************************
+ * @brief Hàm mô phỏng quá trình đọc dữ liệu từ cảm biến
+ * @details Cứ mỗi 2 giây, hàm này sẽ cập nhật dữ liệu cảm biến
+ *          và gửi tín hiệu cho tất cả các luồng xử lý dữ liệu.
+ * @return void
+ ********************************************************/
 void sensor_read()
 {
     while (1)
     {
-        delay(2);
-        sensor_data = rand() % 100;
-        check_data = true;
-        unique_lock<mutex> lock(mtx);    // có thể ko cần
+        delay(2);  // Tạo độ trễ 2 giây
+        sensor_data = rand() % 100; // Giả lập giá trị cảm biến ngẫu nhiên
+        check_data = true;          // Đánh dấu dữ liệu đã sẵn sàng
+        
+        unique_lock<mutex> lock(mtx);    // Có thể không cần vì atomic có thể tự bảo vệ
         cout << "Read data done!\n";
         lock.unlock();
-        cv.notify_all();
+
+        cv.notify_all(); // Báo hiệu cho tất cả các luồng xử lý dữ liệu
     }
 }
 
+/********************************************************
+ * @brief Hàm xử lý dữ liệu từ cảm biến (luồng 1)
+ * @details Chờ dữ liệu cảm biến sẵn sàng, sau đó in ra màn hình.
+ * @return void
+ ********************************************************/
 void process_data_1()
 {
     while (1)
     {
         unique_lock<mutex> lock(mtx);
-        cv.wait(lock, []()->bool{return check_data;}); // trả về true -> break
+        cv.wait(lock, []()->bool{return check_data;}); // Chờ đến khi dữ liệu sẵn sàng
         cout << "Process Data 1: " << sensor_data << endl;
         lock.unlock();
         check_data = false;  
     }
 }
 
+/********************************************************
+ * @brief Hàm xử lý dữ liệu từ cảm biến (luồng 2)
+ * @details Chờ dữ liệu cảm biến sẵn sàng, sau đó in ra màn hình.
+ * @return void
+ ********************************************************/
 void process_data_2()
 {
     while (1)
     {
         unique_lock<mutex> lock(mtx);
-        cv.wait(lock, []()->bool{return check_data;}); // trả về true -> break
+        cv.wait(lock, []()->bool{return check_data;}); // Chờ đến khi dữ liệu sẵn sàng
         cout << "Process Data 2: " << sensor_data << endl;
-        lock.unlock();  // giảm độ nghẽn
+        lock.unlock();  // Giảm độ nghẽn (unlock ngay sau khi hoàn thành tác vụ)
         check_data = false;       
     }
 }
 
 int main(int argc, char const *argv[])
 {
-    thread task1(sensor_read);
-    thread task2(process_data_1);
-    thread task3(process_data_2);
+    thread task1(sensor_read);     // Tạo luồng đọc dữ liệu cảm biến
+    thread task2(process_data_1);  // Tạo luồng xử lý dữ liệu 1
+    thread task3(process_data_2);  // Tạo luồng xử lý dữ liệu 2
 
-    task1.join();
-    task2.join();
-    task3.join();
+    task1.join(); // Chờ luồng 1 kết thúc
+    task2.join(); // Chờ luồng 2 kết thúc
+    task3.join(); // Chờ luồng 3 kết thúc
 
     return 0;
 }
@@ -8172,33 +8056,49 @@ int main(int argc, char const *argv[])
 💻 **Ví dụ 3:**
 ```cpp
 #include <iostream>
-#include <thread>
-#include <chrono>
-#include <mutex>
-#include <atomic>
-#include <condition_variable>
-#include <vector>
+#include <thread>               // Quản lý luồng
+#include <chrono>               // Quản lý thời gian
+#include <mutex>                // Đồng bộ hóa luồng
+#include <atomic>               // Biến nguyên tử
+#include <condition_variable>   // Điều kiện đồng bộ hóa giữa các luồng
+#include <vector>               // Sử dụng buffer để lưu dữ liệu cảm biến
 
 using namespace std;
 
+// Đối tượng mutex dùng để đồng bộ dữ liệu giữa các luồng
 mutex mtx;
 
+// Biến điều kiện để kiểm soát việc đọc và xử lý dữ liệu
 condition_variable cv;
 
+// Biến nguyên tử dùng để đếm dữ liệu cảm biến
 atomic<int> data_sensor(0);
 
+// Bộ đệm dùng để lưu dữ liệu cảm biến trước khi xử lý
 vector<int> buffer;
 
+// Kích thước tối đa của buffer
 const unsigned int MAX_BUFFER_SIZE = 5;
 
+// Biến cờ kiểm soát việc dừng chương trình
 bool stop = false;
 
+/********************************************************
+ * @brief Hàm tạo độ trễ
+ * @param time Thời gian trễ (đơn vị: giây)
+ ********************************************************/
 void delay(int time)
 {
     this_thread::sleep_for(chrono::seconds(time));
 }
 
-// luồng đọc dữ liệu cảm biến
+/********************************************************
+ * @brief Luồng đọc dữ liệu cảm biến
+ * @details Dữ liệu được đọc và thêm vào buffer nếu chưa đầy.
+ *          Khi buffer đầy, luồng sẽ chờ đến khi có không gian trống.
+ *          Dữ liệu sẽ tăng dần theo biến toàn cục `data_sensor`.
+ * @return void
+ ********************************************************/
 void readData()
 {
     while (!stop)
@@ -8206,19 +8106,26 @@ void readData()
         unique_lock<mutex> ulock(mtx);
         cv.wait(ulock, [](){ return buffer.size() < MAX_BUFFER_SIZE || stop; });
 
-        if (stop) break;
+        if (stop) break; // Thoát nếu có yêu cầu dừng
 
+        // Thêm dữ liệu vào buffer
         buffer.push_back(++data_sensor);
         cout << "Added data: " << data_sensor << endl;
 
-        cv.notify_one();
-        ulock.unlock();
+        cv.notify_one();  // Thông báo cho luồng xử lý dữ liệu
+        ulock.unlock();    // Giải phóng mutex trước khi ngủ
 
         delay(1);
     }
 }
 
-// luồng xử lý dữ liệu
+/********************************************************
+ * @brief Luồng xử lý dữ liệu
+ * @details Lấy dữ liệu từ buffer và xử lý. Khi buffer trống,
+ *          luồng sẽ chờ đến khi có dữ liệu mới.
+ *          Xử lý dữ liệu đầu tiên trong buffer theo FIFO.
+ * @return void
+ ********************************************************/
 void processData()
 {
     while (!stop)
@@ -8226,34 +8133,36 @@ void processData()
         unique_lock<mutex> ulock(mtx);
         cv.wait(ulock, [](){ return !buffer.empty() || stop; });
 
-        if (stop && buffer.empty()) break;
+        if (stop && buffer.empty()) break; // Thoát nếu buffer rỗng và có yêu cầu dừng
 
-        cout << "Processed data " << buffer.front() << endl;    // lấy dữ liệu đầu tiên
-        buffer.erase(buffer.begin());                           // xóa dữ liệu đâu tiên
+        // Xử lý dữ liệu đầu tiên trong buffer
+        cout << "Processed data " << buffer.front() << endl;
+        buffer.erase(buffer.begin());  // Xóa dữ liệu đầu tiên
 
-        cv.notify_one();
-        ulock.unlock();
+        cv.notify_one();  // Thông báo cho luồng đọc dữ liệu
+        ulock.unlock();    // Giải phóng mutex trước khi ngủ
 
         delay(8);
     }
 }
 
+
 int main()
 {
-    thread t1(readData);
-    thread t2(processData);
+    thread t1(readData);   // Tạo luồng đọc dữ liệu cảm biến
+    thread t2(processData); // Tạo luồng xử lý dữ liệu
 
-    delay(35); // Chạy trong 10 giây
+    delay(35); // Chạy trong 35 giây
 
-    // Dừng luồng
+    // Dừng luồng an toàn
     {
         lock_guard<mutex> lock(mtx);
         stop = true;
     }
-    cv.notify_all();
+    cv.notify_all(); // Thông báo cho tất cả các luồng thoát
 
-    t1.join();
-    t2.join();
+    t1.join(); // Chờ luồng đọc dữ liệu kết thúc
+    t2.join(); // Chờ luồng xử lý dữ liệu kết thúc
 
     cout << "Main: All threads stopped. Exiting program.\n";
 
@@ -8677,9 +8586,7 @@ int sensor_data = 0;
 
 mutex mtx;
 
-void delay(uint32_t time){
-    this_thread::sleep_for(chrono::seconds(time));
-}
+void delay(uint32_t time){this_thread::sleep_for(chrono::seconds(time));}
 
 int sensor_read(){
     for (int i=0; i<7; i++){
