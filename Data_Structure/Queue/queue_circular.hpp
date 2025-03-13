@@ -3,7 +3,7 @@
  * @brief   Định nghĩa lớp hàng đợi vòng (Circular Queue) sử dụng mảng động.
  * @version 1.0
  * @date    2025-01-10
- * @author  Nguyễn Văn Thưởng
+ * @author  Anh Nguyen
  *************************************************************************/
 
 #ifndef QUEUE_CIRCULAR_HPP
